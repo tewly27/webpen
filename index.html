@@ -1,0 +1,161 @@
+<!doctype html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,400&display=swap" rel="stylesheet">
+    <title><%= title %></title>
+    <script src="https://kit.fontawesome.com/67088c4cfd.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="menu-bar">
+
+        <button href="#" class="logo">WebPen</button>
+        <div class="sub-menu wh100">
+            <button class="menu-element"><img class="noAction" src="menu1.svg" alt="File"></button>
+            <button class="menu-element"><img class="noAction" src="pointer1.svg" alt="File"></button>
+            <button class="menu-element"><img class="noAction" src="pen1.svg" alt="File"></button>
+            <button class="menu-element"><img class="noAction" src="rectangle1.svg" alt="File"></button>
+        </div>
+
+
+
+    </div>
+
+    <div class="workspace">
+
+
+        <div class="container containerLeft">
+            <!-- <div class="tool-box">
+                <div class="box-header">Toolbox</div>
+                <div class="box-content">
+                    <i class="fas fa-pencil-alt"></i>
+                    <i class="fas fa-mouse-pointer"></i>
+                    <i class="fas fa-arrows-alt"></i>
+                </div>
+
+            </div> -->
+            <div class="assets">
+                <div class="box-header" style="width: 70px;">Asset</div>
+
+                <div class="assets-setting">
+                    <button><img width="25px" src="sort1.svg" alt=""></button>
+                    <button><img width="25px" src="view1.svg" alt=""></button>
+                </div>
+
+                <div class="box-content">
+                    <div class="box-inset-shadow"></div>
+                    <div class="asset-container"
+                        style="width: 100%; padding: 10px;box-sizing: border-box;display: inline-block">
+                        <button class="assets-item"><img class="noAction" src="folder1.svg" alt="folder">
+                            <div>Layout</div>
+                        </button>
+                        <button class="assets-item"><img class="noAction" src="folder1.svg" alt="folder">
+                            <div>Card</div>
+                        </button>
+                        <button class="assets-item"><img class="noAction" src="folder1.svg" alt="folder">
+                            <div>Navigation</div>
+                        </button>
+
+                        <button class="assets-item"><img class="noAction" src="folder1.svg" alt="folder">
+                            <div>Paragraph</div>
+                        </button>
+                        <button class="assets-item"><img class="noAction" src="folder1.svg" alt="folder">
+                            <div>Controls</div>
+                        </button>
+                        <button class="assets-item"><img class="noAction" src="folder1.svg" alt="folder">
+                            <div>Form</div>
+                        </button>
+
+                        <button class="assets-item"><img class="noAction" src="folder1.svg" alt="folder">
+                            <div>Form</div>
+                        </button>
+                        <button class="assets-item"><img class="noAction" src="file1.svg" alt="file">
+                            <div>Example1</div>
+                        </button>
+                        <button class="assets-item"><img class="noAction" src="file1.svg" alt="file">
+                            <div>Example2</div>
+                        </button>
+
+                        <button class="assets-item"><img class="noAction" src="file1.svg" alt="file">
+                            <div>Example3</div>
+                        </button>
+                        <button class="assets-item"><img class="noAction" src="file1.svg" alt="file">
+                            <div>Example4</div>
+                        </button>
+                        <button class="assets-item"><img class="noAction" src="file1.svg" alt="file">
+                            <div>Example5</div>
+                        </button>
+
+                        <button class="assets-item"><img class="noAction" src="file1.svg" alt="file">
+                            <div>Example6</div>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="outline">
+                <div class="box-header">Outline</div>
+                <div class="box-content">
+                    <div class="outline-element ">
+                        html
+                        <div class="tab">
+                            <div class="outline-element">head</div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+        <div class="container frame"><iframe class="i-frame" frameborder="0"></iframe></iframe>
+        </div>
+
+        <div class="container containerRight" style="float: right">
+            <div class="layout-view">
+                <div class="box-header">Layout</div>
+                <div class="box-content">
+                    <div class="layout-graphic-margin">
+                        <div class="layout-graphic-padding">
+                            <div class="layout-graphic-element"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- <script>
+        var toggler = document.getElementsByClassName("outline-element");
+        var i;
+
+        for (i = 0; i < toggler.length; i++) {
+            toggler[i].addEventListener("click", function () {
+                this.parentElement.querySelector(".openable").classList.toggle("active");
+                this.classList.toggle("open");
+            });
+        }
+    </script> -->
+
+</body>
+
+</html>
